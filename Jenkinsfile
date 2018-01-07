@@ -1,7 +1,7 @@
 pipeline {
   agent {
-    node {
-      label 'test'
+    docker {
+      image 'docker.io/node'
     }
     
   }
